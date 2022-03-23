@@ -3,7 +3,7 @@
 	<id>net.xmind.XMind</id>
 	<launchable type="desktop-id">net.xmind.XMind.desktop</launchable>
 	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>LicenseRef-proprietary=https://www.xmind.net/license</project_license>
+	<project_license>LicenseRef-proprietary</project_license>
 	<name>XMind (2022)</name>
 	<summary>Mind Mapping &amp; Brainstorming</summary>
 	<description>
@@ -23,7 +23,25 @@
 	<update_contact>xmind-2022_AT_xmind.net</update_contact>
 	<screenshots>
 		<screenshot type="default">
-			<image>https://assets.xmind.net/www/assets/images/xmind2021/page2021/pitch-mode-mindmap@1x-73fb4e7ee6.png</image>
+			<image>https://assets.xmind.net/uploads/img/017db1649c9fe2bb9e6d20d49de1607e13.png</image>
+		</screenshot>
+		<screenshot>
+			<image>https://assets.xmind.net/uploads/img/0282e618e8998d5420c0922544b6fa4c19.png</image>
+		</screenshot>
+		<screenshot>
+			<image>https://assets.xmind.net/uploads/img/03442957d493b47f50fca2ced35cd2ce3d.png</image>
+		</screenshot>
+		<screenshot>
+			<image>https://assets.xmind.net/uploads/img/041db1e67d6471db6d1bdd202c9e65295b.png</image>
+		</screenshot>
+		<screenshot>
+			<image>https://assets.xmind.net/uploads/img/05f2ada9a4cc15be64e3c306e2f84cbf0d.png</image>
+		</screenshot>
+		<screenshot>
+			<image>https://assets.xmind.net/uploads/img/066aaabcf5a025b66486196b438fc0049c.png</image>
+		</screenshot>
+		<screenshot>
+			<image>https://assets.xmind.net/uploads/img/0716b3368df018c43448c2219524d34245.png</image>
 		</screenshot>
 	</screenshots>
 	<releases>
