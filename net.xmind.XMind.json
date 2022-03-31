@@ -43,15 +43,15 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://www.xmind.net/xmind/downloads/XMind-for-Linux-arm-64bit-12.0.0-202203100115.deb",
-          "sha256": "0405cbda0458cea711d366157dadd9ce5834f9571efa48dbd6c21258ba97c102",
+          "url": "https://www.xmind.net/xmind/downloads/XMind-for-Linux-arm64bit-12.0.1-202203300234.deb",
+          "sha256": "c60b655d1d99c34126f4785d8ffbca2cc1394d0ff94466b51b5a3592d1d9fa12",
           "dest-filename": "xmind.deb",
           "only-arches": ["aarch64"]
         },
         {
           "type": "file",
-          "url": "https://www.xmind.net/xmind/downloads/XMind-for-Linux-amd-64bit-12.0.0-202203092327.deb",
-          "sha256": "b83576c5960d848a8e04ab5f1a35b02aadf99f29c3c62a7ec1a03c6b2920efde",
+          "url": "https://www.xmind.net/xmind/downloads/XMind-for-Linux-amd-64bit-12.0.1-202203290828.deb",
+          "sha256": "fef372511e3b6390f9125dfc4ed50d5c6a0a87e8e1d27728b1655dbc582ba0e5",
           "dest-filename": "xmind.deb",
           "only-arches": ["x86_64"]
         },
