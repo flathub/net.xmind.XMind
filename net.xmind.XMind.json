@@ -33,7 +33,7 @@
         "tar xf data.tar.xz",
         "cp -r usr/* /app",
         "mkdir /app/main",
-        "cp -r opt/XMind/* /app/main",
+        "cp -r opt/Xmind/* /app/main",
         "ln -s /app/main/xmind /app/bin/xmind-0",
         "install -Dm644 net.xmind.XMind.metainfo.xml /app/share/metainfo/net.xmind.XMind.metainfo.xml",
         "install -Dm644 net.xmind.XMind.desktop -t /app/share/applications",
@@ -43,15 +43,15 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://xmind.cn/xmind/downloads/XMind-for-Linux-arm64bit-12.0.3-202206261853.deb",
-          "sha256": "204de4b0c1bf19e2d573f8c9eecf6006ef261bdabd40f9eee2d95fc92370b08e",
+          "url": "https://www.xmind.app/xmind/downloads/Xmind-for-Linux-arm64bit-22.08.2223.deb",
+          "sha256": "d0993e7582fd99436f2d27f281d91d699f1b4d8928600ecc9466b2d19323b5b2",
           "dest-filename": "xmind.deb",
           "only-arches": ["aarch64"]
         },
         {
           "type": "file",
-          "url": "https://xmind.cn/xmind/downloads/XMind-for-Linux-amd64bit-12.0.3-202206261857.deb",
-          "sha256": "faac34ad949d79f8b2691a6cccadc7b6e30e3f5a322674eabfecafb655674cd5",
+          "url": "https://www.xmind.app/xmind/downloads/Xmind-for-Linux-amd64bit-22.08.2224.deb",
+          "sha256": "3986a2a8eec5c38a6d2b44fe97c179d267cf8ec994fb399111203636271a0598",
           "dest-filename": "xmind.deb",
           "only-arches": ["x86_64"]
         },

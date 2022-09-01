@@ -1,11 +1,11 @@
 [Desktop Entry]
-Name=XMind
+Name=Xmind
 Exec=xmind %U
 Terminal=false
 Type=Application
 Icon=net.xmind.XMind
-StartupWMClass=XMind
+StartupWMClass=Xmind
 StartupNotify=true
-Comment=XMind - The most popular mind mapping software.
+Comment=Xmind - The most popular mind mapping software.
 MimeType=application/xmind;x-scheme-handler/xmind;x-scheme-handler/xmind-zen;
 Categories=Office;
