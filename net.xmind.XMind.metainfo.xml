@@ -10,6 +10,7 @@
 		<p>Ideas Grow on Trees.</p>
 		<p>Xmind is a full-featured mind mapping and brainstorming app. Like a Swiss Army Knife for your brain, spark creativity and improve thinking skills. 100+ million installations on the planet.</p>
 	</description>
+	<icon type="remote">https://dl.flathub.org/repo/appstream/aarch64/icons/128x128/net.xmind.XMind.png</icon>
 	<url type="homepage">https://www.xmind.net/</url>
 	<url type="bugtracker">http://support.xmind.net/</url>
 	<url type="faq">https://www.xmind.net/faq/</url>
