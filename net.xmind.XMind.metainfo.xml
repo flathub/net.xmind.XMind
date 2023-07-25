@@ -4,23 +4,23 @@
 	<launchable type="desktop-id">net.xmind.XMind.desktop</launchable>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>LicenseRef-proprietary</project_license>
-	<name>Xmind (2022)</name>
+	<name>Xmind (2023)</name>
 	<summary>Mind Mapping &amp; Brainstorming</summary>
 	<description>
 		<p>Ideas Grow on Trees.</p>
 		<p>Xmind is a full-featured mind mapping and brainstorming app. Like a Swiss Army Knife for your brain, spark creativity and improve thinking skills. 100+ million installations on the planet.</p>
 	</description>
-	<url type="homepage">https://www.xmind.net/</url>
-	<url type="bugtracker">http://support.xmind.net/</url>
-	<url type="faq">https://www.xmind.net/faq/</url>
-	<url type="help">http://support.xmind.net/</url>
+	<url type="homepage">https://xmind.app/</url>
+	<url type="bugtracker">https://support.xmind.net/</url>
+	<url type="faq">https://xmind.app/faq/</url>
+	<url type="help">https://support.xmind.net/</url>
 	<developer_name>XMIND LTD.</developer_name>
 	<categories>
 		<category>Office</category>
 		<category>Education</category>
 		<category>Productivity</category>
 	</categories>
-	<update_contact>xmind-2022_AT_xmind.net</update_contact>
+	<update_contact>xmind-2023_AT_xmind.app</update_contact>
 	<screenshots>
 		<screenshot type="default">
 			<image>https://assets.xmind.net/uploads/img/017db1649c9fe2bb9e6d20d49de1607e13.png</image>
