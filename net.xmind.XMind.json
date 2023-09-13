@@ -50,6 +50,13 @@
         },
         {
           "type": "file",
+          "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-arm64bit-23.08.04132-202309130048.deb",
+          "sha256": "151419cd5f98406545a8c8c7bc10d0c3c3b158b18aa9ed0f593c35a570087372",
+          "dest-filename": "xmind.deb",
+          "only-arches": ["aarch64"]
+        },
+        {
+          "type": "file",
           "path": "net.xmind.XMind.metainfo.xml"
         },
         {
