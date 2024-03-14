@@ -18,7 +18,6 @@
 	<categories>
 		<category>Office</category>
 		<category>Education</category>
-		<category>Productivity</category>
 	</categories>
 	<update_contact>xmind-2023_AT_xmind.app</update_contact>
 	<screenshots>
@@ -45,6 +44,7 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="24.01.14361" date="2024-03-14"/>
 		<release version="23.11.04336" date="2023-11-20"/>
 		<release version="23.09.11172" date="2023-10-16"/>
 		<release version="23.08.04132" date="2023-09-10"/>
