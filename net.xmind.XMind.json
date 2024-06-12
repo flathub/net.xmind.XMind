@@ -43,15 +43,15 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-amd64bit-24.01.14361-202403131929.deb",
-          "sha256": "ca1e573cdbddb4dd67bb0faa920653c94eab3eac78f2b905c3528aae5691dfce",
+          "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-amd64bit-24.04.10311-202405240010.deb",
+          "sha256": "e789cd2382e8ba37259547ea63d9ea6baa2c8487919a3e0e6c7bec512a33cfeb",
           "dest-filename": "xmind.deb",
           "only-arches": ["x86_64"]
         },
         {
           "type": "file",
-          "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-arm64bit-24.01.14361-202403140033.deb",
-          "sha256": "a8af1ae89bc37a8dff5d040fc4ec6ea3eb106bcb56f66856c6ad2519a6e41c06",
+          "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-arm64bit-24.04.10311-202406111837.deb",
+          "sha256": "63f390cf3b6aef16c8404e53ca5410f693bfdea24f54bb3b05b57590e905b43e",
           "dest-filename": "xmind.deb",
           "only-arches": ["aarch64"]
         },
