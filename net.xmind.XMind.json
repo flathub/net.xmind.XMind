@@ -8,6 +8,7 @@
   "base-version": "23.08",
   "separate-locales": false,
   "rename-icon":"xmind",
+  "rename-mime-file": "xmind.xml",
   "finish-args": [
     "--socket=x11",
     "--share=ipc",
