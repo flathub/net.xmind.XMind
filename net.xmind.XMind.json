@@ -47,7 +47,12 @@
           "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-amd64bit-25.04.03033-202505120700.deb",
           "sha256": "ecb15da3be6e0ce4cabea08b6b0cfaab378d6ee40a998a83f9c4194ad7befe73",
           "dest-filename": "xmind.deb",
-          "only-arches": ["x86_64"]
+          "only-arches": ["x86_64"],
+          "x-checker-data": {
+            "type": "rotating-url",
+            "url": "https://xmind.app/zen/download/linux_deb",
+            "pattern": "https://dl3.xmind.cn/Xmind-for-Linux-amd64bit-([0-9.]+).deb"
+          }
         },
         {
           "type": "file",
