@@ -31,7 +31,7 @@
       "buildsystem": "simple",
       "build_commands": [
         "ar x xmind.deb",
-        "tar xf data.tar.xz",
+        "tar xf data.tar.gz",
         "cp -r usr/* /app",
         "mkdir /app/main",
         "cp -r opt/Xmind/* /app/main",
