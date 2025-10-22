@@ -2,10 +2,12 @@
   "id": "net.xmind.XMind",
   "command": "xmind",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "25.08",
+  "runtime-version": "23.08",
   "sdk": "org.freedesktop.Sdk",
+  "base": "org.electronjs.Electron2.BaseApp",
+  "base-version": "23.08",
   "separate-locales": false,
-  "rename-icon": "xmind",
+  "rename-icon":"xmind",
   "rename-mime-file": "xmind.xml",
   "finish-args": [
     "--socket=x11",
@@ -33,6 +35,7 @@
         "cp -r usr/* /app",
         "mkdir -p /app/main",
         "cp -r opt/Xmind/* /app/main",
+        "ln -s /app/main/xmind /app/bin/xmind-0",
         "install -Dm644 net.xmind.XMind.metainfo.xml /app/share/metainfo/net.xmind.XMind.metainfo.xml",
         "install -Dm644 net.xmind.XMind.desktop -t /app/share/applications",
         "mkdir -p /app/bin",
@@ -66,9 +69,8 @@
           "type": "script",
           "dest-filename": "xmind",
           "commands": [
-            "#!/bin/bash",
             "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
-            "exec /app/main/xmind \"$@\""
+            "zypak-wrapper \"xmind-0\" \"$@\""
           ]
         }
       ]
