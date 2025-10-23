@@ -2,12 +2,10 @@
   "id": "net.xmind.XMind",
   "command": "xmind",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "23.08",
+  "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
-  "base": "org.electronjs.Electron2.BaseApp",
-  "base-version": "23.08",
   "separate-locales": false,
-  "rename-icon":"xmind",
+  "rename-icon": "xmind",
   "rename-mime-file": "xmind.xml",
   "finish-args": [
     "--socket=x11",
@@ -31,28 +29,28 @@
       "buildsystem": "simple",
       "build_commands": [
         "ar x xmind.deb",
-        "tar xf data.tar.xz",
+        "tar xf data.tar.gz",
         "cp -r usr/* /app",
-        "mkdir /app/main",
+        "mkdir -p /app/main",
         "cp -r opt/Xmind/* /app/main",
-        "ln -s /app/main/xmind /app/bin/xmind-0",
         "install -Dm644 net.xmind.XMind.metainfo.xml /app/share/metainfo/net.xmind.XMind.metainfo.xml",
         "install -Dm644 net.xmind.XMind.desktop -t /app/share/applications",
-        "install -Dm755 xmind /app/bin/",
+        "mkdir -p /app/bin",
+        "install -Dm755 xmind /app/bin/xmind",
         "rm -rf /app/share/icons/hicolor/1024x1024"
       ],
       "sources": [
         {
           "type": "file",
-          "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-amd64bit-25.04.03033-202505120700.deb",
-          "sha256": "ecb15da3be6e0ce4cabea08b6b0cfaab378d6ee40a998a83f9c4194ad7befe73",
+          "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-amd64bit-26.01.03145-202510170359.deb",
+          "sha256": "87bab10dfdb5f7eb7ca0093c20006ceccc9ab0d7772bf3c033a6bbf64c9a2ddc",
           "dest-filename": "xmind.deb",
           "only-arches": ["x86_64"]
         },
         {
           "type": "file",
-          "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-arm64bit-25.04.03033-202505200553.deb",
-          "sha256": "5d082e76bc87015beff40e85e9790c96eee61a30c9dad12fcde4dabcc5623b96",
+          "url": "https://xmind.app/xmind/downloads/Xmind-for-Linux-arm64bit-26.01.03145-202510192005.deb",
+          "sha256": "58b386d7a8730a6a97f6299b692b6130f63b67c1ac6220e24844ac37159fa4f3",
           "dest-filename": "xmind.deb",
           "only-arches": ["aarch64"]
         },
@@ -68,8 +66,9 @@
           "type": "script",
           "dest-filename": "xmind",
           "commands": [
+            "#!/bin/bash",
             "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
-            "zypak-wrapper \"xmind-0\" \"$@\""
+            "exec /app/main/xmind \"$@\""
           ]
         }
       ]
