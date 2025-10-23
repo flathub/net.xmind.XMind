@@ -10,7 +10,8 @@
   "rename-icon": "xmind",
   "rename-mime-file": "xmind.xml",
   "finish-args": [
-    "--socket=x11",
+    "--socket=wayland",
+    "--socket=fallback-x11",
     "--share=ipc",
     "--device=dri",
     "--socket=pulseaudio",
@@ -69,7 +70,7 @@
           "dest-filename": "xmind",
           "commands": [
             "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
-            "exec zypak-wrapper /app/main/xmind \"$@\""
+            "exec zypak-wrapper /app/main/xmind --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations \"$@\""
           ]
         }
       ]
