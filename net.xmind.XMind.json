@@ -4,6 +4,8 @@
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "25.08",
   "sdk": "org.freedesktop.Sdk",
+  "base": "org.electronjs.Electron2.BaseApp",
+  "base-version": "25.08",
   "separate-locales": false,
   "rename-icon": "xmind",
   "rename-mime-file": "xmind.xml",
@@ -66,9 +68,8 @@
           "type": "script",
           "dest-filename": "xmind",
           "commands": [
-            "#!/bin/bash",
             "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
-            "exec /app/main/xmind \"$@\""
+            "exec zypak-wrapper /app/main/xmind \"$@\""
           ]
         }
       ]
