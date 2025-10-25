@@ -70,7 +70,7 @@
           "dest-filename": "xmind",
           "commands": [
             "export TMPDIR=\"$XDG_RUNTIME_DIR/app/$FLATPAK_ID\"",
-            "exec zypak-wrapper /app/main/xmind --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations \"$@\""
+            "exec zypak-wrapper /app/main/xmind --ozone-platform-hint=auto \"$@\""
           ]
         }
       ]
