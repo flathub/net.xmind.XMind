@@ -22,28 +22,36 @@
 	<update_contact>xmind-2025_AT_xmind.app</update_contact>
 	<screenshots>
 		<screenshot type="default">
+			<caption>Full-featured Mind Mapping</caption>
 			<image>https://assets.xmind.net/uploads/img/017db1649c9fe2bb9e6d20d49de1607e13.png</image>
 		</screenshot>
 		<screenshot>
+			<caption>Capture Ideas from Brainstorming</caption>
 			<image>https://assets.xmind.net/uploads/img/0282e618e8998d5420c0922544b6fa4c19.png</image>
 		</screenshot>
 		<screenshot>
+			<caption>Become a Great Storyteller</caption>
 			<image>https://assets.xmind.net/uploads/img/03442957d493b47f50fca2ced35cd2ce3d.png</image>
 		</screenshot>
 		<screenshot>
+			<caption>Smart Color Theme</caption>
 			<image>https://assets.xmind.net/uploads/img/041db1e67d6471db6d1bdd202c9e65295b.png</image>
 		</screenshot>
 		<screenshot>
+			<caption>Hand-Drawn Style</caption>
 			<image>https://assets.xmind.net/uploads/img/05f2ada9a4cc15be64e3c306e2f84cbf0d.png</image>
 		</screenshot>
 		<screenshot>
+			<caption>Stickers and Illustrations</caption>
 			<image>https://assets.xmind.net/uploads/img/066aaabcf5a025b66486196b438fc0049c.png</image>
 		</screenshot>
 		<screenshot>
+			<caption>Ideas Grow On Trees</caption>
 			<image>https://assets.xmind.net/uploads/img/0716b3368df018c43448c2219524d34245.png</image>
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="26.02.04172" date="2026-04-13"/>
 		<release version="26.01.03145" date="2025-10-21"/>
 		<release version="25.04.03033" date="2025-05-13"/>
 		<release version="24.10.01101" date="2024-10-22"/>
