@@ -4,7 +4,7 @@
 	<launchable type="desktop-id">net.xmind.XMind.desktop</launchable>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>LicenseRef-proprietary</project_license>
-	<name>Xmind (2025)</name>
+	<name>Xmind (2026)</name>
 	<summary>Mind Mapping &amp; Brainstorming</summary>
 	<description>
 		<p>Ideas Grow on Trees.</p>
@@ -19,7 +19,7 @@
 		<category>Office</category>
 		<category>Education</category>
 	</categories>
-	<update_contact>xmind-2025_AT_xmind.app</update_contact>
+	<update_contact>support_AT_xmind.com</update_contact>
 	<screenshots>
 		<screenshot type="default">
 			<caption>Full-featured Mind Mapping</caption>
@@ -51,6 +51,7 @@
 		</screenshot>
 	</screenshots>
 	<releases>
+		<release version="26.03.04129" date="2026-05-26"/>
 		<release version="26.02.04173" date="2026-04-20"/>
 		<release version="26.02.04172" date="2026-04-13"/>
 		<release version="26.01.03145" date="2025-10-21"/>
